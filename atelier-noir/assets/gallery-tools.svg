@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" fill="none">
+  <rect width="800" height="1000" fill="#12100e"/>
+  <rect x="90" y="140" width="620" height="720" fill="#1c1814" stroke="#c4a574" stroke-opacity="0.35"/>
+  <rect x="140" y="210" width="520" height="12" fill="#2a2420"/>
+  <rect x="160" y="250" width="280" height="18" rx="9" fill="#c4a574"/>
+  <rect x="160" y="286" width="80" height="18" rx="9" fill="#8a6d4a"/>
+  <path d="M520 270c40-40 90-40 120 0s40 90 0 120-90 40-120 0-40-90 0-120Z" stroke="#e8e0d4" stroke-width="6"/>
+  <path d="M560 310l80 80" stroke="#c4a574" stroke-width="4"/>
+  <rect x="160" y="420" width="480" height="2" fill="#c4a574" opacity="0.3"/>
+  <circle cx="220" cy="520" r="48" fill="#2b2118" stroke="#c4a574"/>
+  <circle cx="350" cy="520" r="48" fill="#2b2118" stroke="#d4b896"/>
+  <circle cx="480" cy="520" r="48" fill="#2b2118" stroke="#8a6d4a"/>
+  <circle cx="610" cy="520" r="48" fill="#2b2118" stroke="#e8e0d4" stroke-opacity="0.4"/>
+  <rect x="180" y="640" width="440" height="140" fill="#0e0c0a"/>
+  <path d="M220 680h80M220 710h140M220 740h60" stroke="#e8e0d4" stroke-opacity="0.5" stroke-width="3"/>
+  <text x="180" y="920" fill="#a39a8c" font-family="Georgia, serif" font-size="22" letter-spacing="6">INSTRUMENTS</text>
+</svg>

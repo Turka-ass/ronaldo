@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Atelier Noir — камерный барбершоп. Стрижка, бритьё и уход в атмосфере частного ателье."
+    />
+    <title>Atelier Noir — барбершоп</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Manrope:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="noise" aria-hidden="true"></div>
+
+    <header class="header" data-header>
+      <div class="header__inner">
+        <a class="logo" href="#top" aria-label="Atelier Noir — на главную">
+          <img src="assets/logo.svg" alt="" width="28" height="28" />
+          <span>Atelier Noir</span>
+        </a>
+
+        <nav class="nav" data-nav aria-label="Основное меню">
+          <a href="#services">Услуги</a>
+          <a href="#about">Ателье</a>
+          <a href="#gallery">Галерея</a>
+          <a href="#reviews">Отзывы</a>
+          <a href="#contacts">Контакты</a>
+        </nav>
+
+        <button class="btn btn--small" type="button" data-open-booking>
+          Записаться
+        </button>
+
+        <button
+          class="burger"
+          type="button"
+          data-burger
+          aria-label="Открыть меню"
+          aria-expanded="false"
+        >
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero__frame">
+          <p class="eyebrow">Камерный барбершоп · с 2019</p>
+          <h1 id="hero-title">
+            <span>Atelier</span>
+            <em>Noir</em>
+          </h1>
+          <p class="hero__lead">
+            Мужская стрижка здесь не услуга на потоке, а спокойный ритуал:
+            точный силуэт, горячее полотенце и разговор, который никуда не
+            торопится.
+          </p>
+          <div class="hero__actions">
+            <button class="btn" type="button" data-open-booking>
+              Записаться
+            </button>
+            <a class="text-link" href="#services">Смотреть услуги</a>
+          </div>
+        </div>
+
+        <aside class="hero__meta" aria-label="Кратко о визите">
+          <div>
+            <span>Адрес</span>
+            <strong>пер. Чернильный, 14</strong>
+            <p>город Эстмарк</p>
+          </div>
+          <div>
+            <span>Часы</span>
+            <strong>Вт–Вс 11:00–21:00</strong>
+            <p>Понедельник — тишина</p>
+          </div>
+          <div>
+            <span>Визит</span>
+            <strong>только по записи</strong>
+            <p>один мастер — один гость</p>
+          </div>
+        </aside>
+      </section>
+
+      <section class="marquee" aria-hidden="true">
+        <div class="marquee__track">
+          <span>Стрижка</span><span>Бритьё опасной бритвой</span>
+          <span>Камуфляж</span><span>Уход за бородой</span>
+          <span>Укладка</span><span>Горячее полотенце</span>
+          <span>Стрижка</span><span>Бритьё опасной бритвой</span>
+          <span>Камуфляж</span><span>Уход за бородой</span>
+          <span>Укладка</span><span>Горячее полотенце</span>
+        </div>
+      </section>
+
+      <section class="section" id="services">
+        <div class="section__head">
+          <p class="eyebrow">Прайс</p>
+          <h2>Услуги и цены</h2>
+          <p>
+            Короткий список — без лишнего. Если нужен другой формат, мастер
+            предложит его на консультации.
+          </p>
+        </div>
+
+        <ul class="price">
+          <li>
+            <div>
+              <h3>Стрижка</h3>
+              <p>Форма, текстура, рекомендации по уходу дома</p>
+            </div>
+            <span>2 800 ₽</span>
+          </li>
+          <li>
+            <div>
+              <h3>Стрижка и борода</h3>
+              <p>Единый силуэт головы и линии бороды</p>
+            </div>
+            <span>4 200 ₽</span>
+          </li>
+          <li>
+            <div>
+              <h3>Королевское бритьё</h3>
+              <p>Распаривание, опасная бритва, масло и тоник</p>
+            </div>
+            <span>3 500 ₽</span>
+          </li>
+          <li>
+            <div>
+              <h3>Камуфляж седины</h3>
+              <p>Мягкий тон без эффекта «краски из коробки»</p>
+            </div>
+            <span>2 400 ₽</span>
+          </li>
+          <li>
+            <div>
+              <h3>Уход за бородой</h3>
+              <p>Моделирование, масло, расчёсывание</p>
+            </div>
+            <span>2 200 ₽</span>
+          </li>
+          <li>
+            <div>
+              <h3>Укладка</h3>
+              <p>На каждый день или под вечерний выход</p>
+            </div>
+            <span>1 600 ₽</span>
+          </li>
+        </ul>
+      </section>
+
+      <section class="section section--split" id="about">
+        <div class="about__visual" aria-hidden="true">
+          <img src="assets/gallery-chair.svg" alt="" />
+          <p class="about__caption">Кресло №1 · комната с северным светом</p>
+        </div>
+        <div>
+          <p class="eyebrow">О барбершопе</p>
+          <h2>Не салон. Ателье.</h2>
+          <p class="lede">
+            Atelier Noir придумали как место, куда приходят не «быстро подстричься
+            по дороге», а чтобы на час выпасть из города.
+          </p>
+          <p>
+            В зале один мастер и один гость. Стены — тёплый камень и тёмное дерево.
+            Инструменты лежат открыто, как в мастерской, а не прячутся за стойкой
+            ресепшена. Мы не гонимся за трендами из ленты: ищем пропорцию, которая
+            будет жить с вашим лицом месяцами.
+          </p>
+          <p>
+            Запись короткая специально. Так сохраняется тишина, и никому не нужно
+            ждать в очереди под чужой разговор.
+          </p>
+        </div>
+      </section>
+
+      <section class="section" id="advantages">
+        <div class="section__head">
+          <p class="eyebrow">Почему сюда возвращаются</p>
+          <h2>Преимущества</h2>
+        </div>
+        <div class="cards">
+          <article>
+            <span>01</span>
+            <h3>Один гость — всё внимание</h3>
+            <p>
+              Нет параллельных кресел и фонового телевизора. Мастер работает
+              только с вами.
+            </p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>Стрижка под архитектуру лица</h3>
+            <p>
+              Сначала смотрим посадку головы, линию роста и то, как вы носите
+              одежду. Потом берём ножницы.
+            </p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>Честный ритуал, не шоу</h3>
+            <p>
+              Горячее полотенце и бритьё — не для фото, а потому что кожа после
+              этого другая.
+            </p>
+          </article>
+          <article>
+            <span>04</span>
+            <h3>Память о прошлом визите</h3>
+            <p>
+              Записываем форму, длину и то, что вам не зашло. Следующий раз
+              начинается не с нуля.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="gallery">
+        <div class="section__head">
+          <p class="eyebrow">Пространство</p>
+          <h2>Галерея</h2>
+          <p>Интерьер и инструменты — без постановочных портретов.</p>
+        </div>
+        <div class="gallery">
+          <button type="button" data-lightbox data-src="assets/gallery-chair.svg">
+            <img src="assets/gallery-chair.svg" alt="Кожаное кресло мастера в тёплом свете" />
+            <span>Кресло</span>
+          </button>
+          <button type="button" data-lightbox data-src="assets/gallery-tools.svg">
+            <img src="assets/gallery-tools.svg" alt="Рабочий стол с инструментами" />
+            <span>Стол мастера</span>
+          </button>
+          <button type="button" data-lightbox data-src="assets/gallery-light.svg">
+            <img src="assets/gallery-light.svg" alt="Свет, падающий через жалюзи" />
+            <span>Северный свет</span>
+          </button>
+          <button type="button" data-lightbox data-src="assets/gallery-bottles.svg">
+            <img src="assets/gallery-bottles.svg" alt="Флаконы масел и тоников" />
+            <span>Масла</span>
+          </button>
+          <button type="button" data-lightbox data-src="assets/gallery-marble.svg">
+            <img src="assets/gallery-marble.svg" alt="Каменная поверхность с прожилками" />
+            <span>Камень</span>
+          </button>
+          <button type="button" data-lightbox data-src="assets/gallery-razor.svg">
+            <img src="assets/gallery-razor.svg" alt="Опасная бритва на тёмном фоне" />
+            <span>Бритва</span>
+          </button>
+        </div>
+      </section>
+
+      <section class="section" id="reviews">
+        <div class="section__head">
+          <p class="eyebrow">Гости</p>
+          <h2>Отзывы</h2>
+        </div>
+        <div class="reviews">
+          <blockquote>
+            <p>
+              «Пришёл за стрижкой, ушёл с ощущением, что час принадлежал только
+              мне. Форма держится уже третью неделю — это редкость.»
+            </p>
+            <footer>
+              <span class="mono">АР</span>
+              <cite>Артём Р.</cite>
+            </footer>
+          </blockquote>
+          <blockquote>
+            <p>
+              «Бритьё здесь не спектакль. Кожа после него спокойная, без красноты.
+              Записываюсь раз в месяц и больше никуда не хожу.»
+            </p>
+            <footer>
+              <span class="mono">ИЛ</span>
+              <cite>Илья Л.</cite>
+            </footer>
+          </blockquote>
+          <blockquote>
+            <p>
+              «Тихо, пахнет деревом и цитрусом, мастер говорит по делу. Для
+              человека, которому надоело «следующий!», это спасение.»
+            </p>
+            <footer>
+              <span class="mono">МК</span>
+              <cite>Михаил К.</cite>
+            </footer>
+          </blockquote>
+        </div>
+      </section>
+
+      <section class="section section--contact" id="contacts">
+        <div>
+          <p class="eyebrow">Контакты</p>
+          <h2>Как нас найти</h2>
+          <p class="lede">
+            Мы в тихом переулке, за тяжёлой дверью без вывески-неона. Если
+            заблудитесь — позвоните, выйдем встретить.
+          </p>
+
+          <dl class="facts">
+            <div>
+              <dt>Адрес</dt>
+              <dd>город Эстмарк, пер. Чернильный, 14, двор, 1 этаж</dd>
+            </div>
+            <div>
+              <dt>Телефон</dt>
+              <dd><a href="tel:+70001234567">+7 (000) 123-45-67</a></dd>
+            </div>
+            <div>
+              <dt>Почта</dt>
+              <dd>
+                <a href="mailto:hello@atelier-noir.example">hello@atelier-noir.example</a>
+              </dd>
+            </div>
+            <div>
+              <dt>Часы работы</dt>
+              <dd>
+                Вторник — воскресенье: 11:00–21:00<br />
+                Понедельник: выходной
+              </dd>
+            </div>
+          </dl>
+
+          <button class="btn" type="button" data-open-booking>Записаться</button>
+        </div>
+
+        <div class="map" aria-label="Схема проезда">
+          <div class="map__grid"></div>
+          <div class="map__pin">
+            <strong>Atelier Noir</strong>
+            <span>пер. Чернильный, 14</span>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© 2026 Atelier Noir. Вымышленный барбершоп для учебного проекта.</p>
+      <a href="#top">Наверх</a>
+    </footer>
+
+    <div class="modal" data-modal hidden>
+      <div class="modal__backdrop" data-close-booking></div>
+      <div class="modal__panel" role="dialog" aria-modal="true" aria-labelledby="booking-title">
+        <button class="modal__close" type="button" data-close-booking aria-label="Закрыть">
+          ×
+        </button>
+        <p class="eyebrow">Запись</p>
+        <h2 id="booking-title">Записаться</h2>
+        <p>Оставьте контакты — мастер подтвердит время в течение дня.</p>
+        <form class="form" data-form>
+          <label>
+            Имя
+            <input name="name" type="text" required autocomplete="name" />
+          </label>
+          <label>
+            Телефон
+            <input name="phone" type="tel" required autocomplete="tel" />
+          </label>
+          <label>
+            Услуга
+            <select name="service" required>
+              <option value="">Выберите</option>
+              <option>Стрижка</option>
+              <option>Стрижка и борода</option>
+              <option>Королевское бритьё</option>
+              <option>Камуфляж седины</option>
+              <option>Уход за бородой</option>
+              <option>Укладка</option>
+            </select>
+          </label>
+          <label>
+            Желаемая дата
+            <input name="date" type="date" required />
+          </label>
+          <button class="btn" type="submit">Отправить заявку</button>
+          <p class="form__note" data-form-status></p>
+        </form>
+      </div>
+    </div>
+
+    <div class="lightbox" data-lightbox-root hidden>
+      <button type="button" data-close-lightbox aria-label="Закрыть фото">×</button>
+      <img alt="" data-lightbox-img />
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

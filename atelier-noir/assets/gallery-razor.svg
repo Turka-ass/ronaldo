@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" fill="none">
+  <rect width="800" height="1000" fill="#0d0c0b"/>
+  <circle cx="400" cy="480" r="260" stroke="#c4a574" stroke-opacity="0.25"/>
+  <circle cx="400" cy="480" r="180" stroke="#c4a574" stroke-opacity="0.15"/>
+  <rect x="250" y="455" width="300" height="18" rx="4" fill="#e8e0d4"/>
+  <path d="M250 464l-90-40 12-20 90 46z" fill="#c4a574"/>
+  <rect x="538" y="448" width="70" height="32" rx="4" fill="#8a6d4a"/>
+  <text x="400" y="820" text-anchor="middle" fill="#a39a8c" font-family="Georgia, serif" font-size="24" letter-spacing="10">STRAIGHT RAZOR</text>
+</svg>
